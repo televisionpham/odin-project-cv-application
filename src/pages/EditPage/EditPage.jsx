@@ -1,28 +1,23 @@
-import Education from "./Education";
+import EducationList from "./EducationList";
 import GeneralInfo from "./GeneralInfo";
-import WorkExperience from "./WorkExperience";
+import WorkExperience from "./WorkExperienceList";
 
 const EditPage = () => {
-  const data = localStorage.getItem("cv") ?? {
-    generalInfo: {},
-  };
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(data);
-    localStorage.setItem("cv", JSON.stringify(data));
-  };
+  const dataJson = localStorage.getItem("cv");
+  const cv = dataJson
+    ? JSON.parse(dataJson)
+    : {
+        generalInfo: {},
+        educationList: [],
+        workExperience: [],
+      };
 
   return (
     <div id="edit" className="container">
       <h1>Edit CV</h1>
-      <form method="post" action="/" onSubmit={handleSubmit}>
-        <GeneralInfo data={data} />
-        <Education />
-        <WorkExperience />
-        <button className="btn btn-primary" type="submit">
-          Save
-        </button>
-      </form>
+      <GeneralInfo generalInfo={cv.generalInfo} />
+      <EducationList />
+      <WorkExperience />
     </div>
   );
 };

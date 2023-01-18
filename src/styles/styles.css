@@ -1,3 +1,71 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min(100%, 1000px);        
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.section {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
 .section-title {
-    font-size: 1.5rem;
+    font-size: 1.5rem;    
+}
+
+#general-info {
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
+.education-item  {
+    display: grid;
+    grid-template-columns: auto 100px 100px 150px;
+    margin: 0.5rem 0;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.btn {
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #2563eb;
+}
+
+.btn-secondary {
+    color: white;
+    background-color: #6b7280;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #dc2626;
+}
+
+.description {
+    white-space: pre-line;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.25rem;
 }
