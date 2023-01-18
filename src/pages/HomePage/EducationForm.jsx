@@ -48,6 +48,8 @@ const EducationForm = (props) => {
         })
       );
     }
+
+    hideForm();
   };
 
   return (

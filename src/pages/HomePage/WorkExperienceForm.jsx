@@ -70,6 +70,8 @@ const WorkExperienceForm = (props) => {
         })
       );
     }
+
+    hideForm();
   };
 
   return (
