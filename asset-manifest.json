@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7bba387a.css",
-    "main.js": "/static/js/main.0ee57def.js",
-    "static/js/787.47311052.chunk.js": "/static/js/787.47311052.chunk.js",
-    "index.html": "/index.html",
-    "main.7bba387a.css.map": "/static/css/main.7bba387a.css.map",
-    "main.0ee57def.js.map": "/static/js/main.0ee57def.js.map",
-    "787.47311052.chunk.js.map": "/static/js/787.47311052.chunk.js.map"
+    "main.css": "/odin-project-cv-application/static/css/main.7bba387a.css",
+    "main.js": "/odin-project-cv-application/static/js/main.f4ae3bc0.js",
+    "static/js/787.47311052.chunk.js": "/odin-project-cv-application/static/js/787.47311052.chunk.js",
+    "index.html": "/odin-project-cv-application/index.html",
+    "main.7bba387a.css.map": "/odin-project-cv-application/static/css/main.7bba387a.css.map",
+    "main.f4ae3bc0.js.map": "/odin-project-cv-application/static/js/main.f4ae3bc0.js.map",
+    "787.47311052.chunk.js.map": "/odin-project-cv-application/static/js/787.47311052.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7bba387a.css",
-    "static/js/main.0ee57def.js"
+    "static/js/main.f4ae3bc0.js"
   ]
 }
